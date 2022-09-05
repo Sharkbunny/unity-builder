@@ -91,7 +91,7 @@ class BuildParameters {
 
     return {
       editorVersion,
-      customImage: Input.customImage,
+      customImage: 'unityci/editor:ubuntu-2021.1.17f1-linux-il2cpp-1.0.1',
       unitySerial,
 
       runnerTempPath: process.env.RUNNER_TEMP,
